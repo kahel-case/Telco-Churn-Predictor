@@ -1,0 +1,18 @@
+[
+  {
+    "Model": "Baseline RF (SMOTENC, default)",
+    "Accuracy": 0.773,
+    "Precision (Churn)": 0.571,
+    "Recall (Churn)": 0.587,
+    "F1-score (Churn)": 0.579,
+    "ROC-AUC": 0.816
+  },
+  {
+    "Model": "Tuned RF (SMOTENC + RandomizedSearchCV + GridSearchCV)",
+    "Accuracy": 0.779,
+    "Precision (Churn)": 0.572,
+    "Recall (Churn)": 0.66,
+    "F1-score (Churn)": 0.613,
+    "ROC-AUC": 0.834
+  }
+]
